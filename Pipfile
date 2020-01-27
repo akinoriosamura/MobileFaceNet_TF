@@ -1,0 +1,17 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+tensorflow = "==1.14"
+opencv-python = "*"
+scipy = "*"
+sklearn = "*"
+numpy = "*"
+mxnet = "*"
+
+[requires]
+python_version = "3.6"
